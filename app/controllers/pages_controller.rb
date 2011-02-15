@@ -1,15 +1,19 @@
 class PagesController < ApplicationController
 
   def home
-    @title = "Home"
+    @title = "Ruby on Rails Tutorial Sample App | Home"
   end
 
   def contact
-    @title = "Contact"
+    @title = "Ruby on Rails Tutorial Sample App | Contact"
   end
 
   def about
-    @title = "About"
+    @title = "Ruby on Rails Tutorial Sample App | About"
+  end
+
+  def help
+    @title = "Ruby on Rails Tutorial Sample App | Help"
   end
 
 end
